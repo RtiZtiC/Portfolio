@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;900&display=swap');
+body{
+    margin:0;
+}
+.headcon{
+    height:600px ;
+    background-image: url("layered-waves-haikei.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header-text{
+    font-family: 'Sacramento', cursive;
+    color: white;
+    font-size: 5.5rem;
+    font-weight: 800;
+}
+
+.intro-div{
+    width: 475px;
+    align-self: center;
+    padding-top: 50px;
+}
+
+.intro-div p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    position: relative;
+    top:280px;
+    right: 10px;
+    line-height: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.blog-visit{
+    position: relative;
+    top:150px;
+    left:140px;
+    color: white;
+    border-color: white;
+    border-width: 1.5px;
+
+}
+.line{
+    width:40%;
+    height: 1px;
+    background-color: #001220;
+    margin: 0%;
+    position: absolute;
+    display: flex;
+    left:420px;
+}
+.space{
+    background-color: #c62368;
+    height: 160px;
+}
+.moving-stickers{
+    background-color: #001220;
+    padding: 7% 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.moving-stickers img{
+    width:100px;
+    height: 100px;
+}
+
+#intro-container{
+    background-color: #c62368;
+    padding-top: 100px;
+    background-image: url("stacked-steps-haikei.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 3%;
+}
+.navbar{
+    padding: 2% 6%;
+}
+.profile h4{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding:0% 30% ;
+    padding-top: 5%;
+    line-height: 3rem;
+}
+.profile h2{
+    font-size: 4rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+.s-icon:hover{
+    border-radius: 10%;
+    border: 3px solid white;
+    border-color: #fa7268;
+    border-width: 3px;
+    background-color: gray;
+}
+#skills{
+    background-color: #B0235F;
+}
+#press{
+    background-color: #B0235F;
+    text-align: center;
+}
+#press img{
+    width:500px;
+    height: 300px;
+    border-radius: 30px;
+}
+.gallery-head{
+    color: #001220;
+    font-size: 4rem;
+    font-family: 'Sacramento', cursive;
+    font-weight: 800;
+    padding: 5%;
+}
+
+.carousel-item h2{
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1% 20%;
+    padding-bottom: 4%;
+
+}
+
+.carousel-item p
+{
+    color: #001220;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    padding: 4% 20%;
+
+}
+.caraoselflex
+{
+    display: flex;
+}
+.thumbnails
+{
+    padding: 2% 3%;
+}
+
+#cta
+{
+    background-color: #001220;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 8% 2%;
+}
+
+.globe
+{
+    background-image: url("blurry-gradient-haikei.png");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cute{
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;
+}
+.c1 h2{
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+    margin-top: 25%;
+    font-size: 2.5rem;
+}
+.mailme{
+    border-width: 2px;
+
+}
+
+.c1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:40px;
+}
+
+#footer{
+    background-color: #001220;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputbox{
+    width:400px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    position: relative;
+    top:4px;
+}
+.inputbox::placeholder{
+    color: white;
+    padding-left: 20px;
+}
+
+.brands{
+    display: flex;
+    gap:20px;
+    padding-bottom: 4%;
+}
+.inputs{
+    display: flex;
+    gap:20px;
+}
+.brands a{
+    color: gray;
+}
+.brands a:hover{
+    color: white;
+}
+input, select, textarea{
+    color: #fff;
+}
+.nav-item{
+    padding-right: 20px;;
+}
+@media screen and (max-width:768px) {
+   .globe{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
+   } 
+   #cta{
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+   }
+   .inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+   }
+}
